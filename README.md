@@ -58,3 +58,10 @@ The project follows a **systematic** approach to fetch, clean, analyze, and visu
    ```bash
    git clone https://github.com/yourusername/youtube-comment-analysis.git
    cd youtube-comment-analysis
+
+2. Install dependencies:
+   ```bash
+   pip install google-api-python-client emoji vaderSentiment matplotlib
+3. Run the script and enter a YouTube Video URL:
+   ```bash
+   python sentiment_analysis.py
