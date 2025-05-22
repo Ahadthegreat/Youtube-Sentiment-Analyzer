@@ -20,12 +20,17 @@ The project follows a **systematic** approach to fetch, clean, analyze, and visu
 
 ### 3️⃣ Sentiment Analysis  
 - Uses **VADER Sentiment Analysis** to determine the polarity of each comment.  
-- Classifies comments as **Positive, Negative, or Neutral** based on their sentiment score.  
+- Classifies comments as **Positive, Negative, or Neutral** based on their sentiment score.
 
-### 4️⃣ Results & Insights  
-- Stores filtered comments in a text file.  
+### 4️⃣ SGD Model Training 
+- Trained **Stochastic Gradient Descent Model** wrt the labels produced through vlader sentiment analyzer on a corpus of 40k comments.  
+- Achieved an astonishing accuracy score of 87% over the corpus.  
+
+### 5️⃣ Results & Insights  
+- Stores filtered comments in a text file.
+- Used SGD trained model to predict over real time comments and categorzed over positive, negative and neutral throught model's prediction over +1, -1 and 0. 
 - Displays the **most positive and most negative comments**.  
-- Visualizes sentiment distribution using a **bar chart**.  
+- Visualizes sentiment distribution using a **PLT's bar chart**.  
 
 ---
 
@@ -41,7 +46,8 @@ The project follows a **systematic** approach to fetch, clean, analyze, and visu
 ## 🛠️ Technologies Used  
 - **Python** 🐍  
 - **YouTube Data API v3** 📺  
-- **VADER Sentiment Analysis** 🧠  
+- **VADER Sentiment Analysis** 🧠
+- **Stochastic Gradient Descent** 
 - **Matplotlib** 📊  
 - **Regular Expressions (Regex)** 🔎  
 
